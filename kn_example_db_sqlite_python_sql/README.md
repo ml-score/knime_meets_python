@@ -1,6 +1,6 @@
-# KNIME Project with Python Integration
+# KNIME, Python and SQL with local SQLite database
 
-This repository contains projects that integrates Python code for data processing and analysis.
+Some examples how to interact with a (local) SQLite database with SQL commands via Python (Jupyter Notebook)
 
 ## Project Overview
 
