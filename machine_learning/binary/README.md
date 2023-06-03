@@ -1,5 +1,5 @@
 
-A small collection of Jupyter notebooks with advanced machine-learning algorithms. Used in cooperation with KNIME workflows but also can be used standalone. The results can be integrated in KNIME like being demonstrated in these articles (where you will also find the links to the KNIME workflows)
+A small collection of Jupyter notebooks (under /notebooks/) with advanced machine-learning algorithms. Used in cooperation with KNIME workflows but also can be used standalone. The results can be integrated in KNIME like being demonstrated in these articles (where you will also find the links to the KNIME workflows)
 
 Hyperparameter optimization for LightGBM — wrapped in KNIME nodes
 
