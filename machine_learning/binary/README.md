@@ -24,3 +24,15 @@ KNIME and Python — Setting up and managing Conda environments
 
 https://medium.com/p/2ac217792539
 
+
+
+--------------------
+The training data used is:
+
+Census Income Data Set
+Abstract: Predict whether income exceeds $50K/yr based on census data. Also known as "Adult" dataset.
+
+Extract and prepare the Census Income Files for usage in KNIME
+
+https://archive.ics.uci.edu/ml/datasets/census+income
+
