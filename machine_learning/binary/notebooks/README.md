@@ -8,7 +8,9 @@ a collection of Jupyter notebooks to create machine-learning models, store the p
 --------
 
 If you copy this to your local repository you might need the folders
+
 /notebooks/
+
 /model/
 
 The data will be stored in the main directory. This is why under KNIME the standard directory directly under the workflow is /data/ and in the examples on the KNIME server I wanted to keep eneything together
