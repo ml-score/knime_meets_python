@@ -2,6 +2,9 @@
 A small collection of Jupyter notebooks (under /notebooks/) with advanced machine-learning algorithms. Used in cooperation with KNIME workflows but also can be used standalone. The results can be integrated in KNIME like being demonstrated in these articles (where you will also find the links to the KNIME workflows)
 
 
+![KNIME loves H2O.ai](KNIME_loves_h2o.png)
+
+
 Hyperparameter optimization for LightGBM — wrapped in KNIME nodes
 
 https://medium.com/p/ddb7ae1d7e2
