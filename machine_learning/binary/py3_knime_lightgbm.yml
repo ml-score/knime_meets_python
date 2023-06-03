@@ -1,0 +1,62 @@
+# conda env create -f="/Users/m_lauber/Dropbox/knime-workspace/Machine_Learning/ml_binary/kn_example_ml_binary_lightgbm_hyper_parameter_opt/data/py3_knime_lightgbm.yml"
+# conda env create -f="C:\\Users\\x123456\\knime-workspace\\Machine_learning\\ml_binary\\kn_example_ml_binary_lightgbm_hyper_parameter_opt\\data\\py3_knime_lightgbm.yml"
+
+# conda activate py3_knime_lightgbm
+# conda update -n py3_knime_lightgbm --all
+
+# conda env update --name py3_knime_lightgbm --file "/Users/m_lauber/Dropbox/knime-workspace/Machine_Learning/ml_binary/kn_example_ml_binary_lightgbm_hyper_parameter_opt/data/py3_knime_lightgbm.yml" --prune
+# conda env update --name py3_knime_lightgbm --file "C:\\Users\\x123456\\knime-workspace\\Machine_learning\\ml_binary\\kn_example_ml_binary_lightgbm_hyper_parameter_opt\\data\\py3_knime_lightgbm.yml" --prune
+
+# conda env update --name py3_knime_lightgbm --file "/Users/m_lauber/Dropbox/knime-workspace/Machine_Learning/ml_binary/kn_example_ml_binary_lightgbm_hyper_parameter_opt/data/py3_knime_lightgbm.yml"
+# conda env update --name py3_knime_lightgbm --file "C:\\Users\\x123456\\knime-workspace\\Machine_learning\\ml_binary\\kn_example_ml_binary_lightgbm_hyper_parameter_opt\\data\\py3_knime_lightgbm.yml"
+# conda update -n base conda
+
+# KNIME official Python integration guide
+# https://docs.knime.com/latest/python_installation_guide/index.html#_introduction
+
+# KNIME and Python - Setting up and managing Conda environments
+# https://medium.com/p/2ac217792539
+
+# Hyperparameter optimization for LightGBM - wrapped in KNIME nodes
+# https://medium.com/p/ddb7ae1d7e2
+
+# conda activate py3_knime_lightgbm
+
+# file: py3_knime_lightgbm.yml with some modifications
+# THX Carsten Haubold (https://hub.knime.com/carstenhaubold) for hints
+name: py3_knime_lightgbm         # Name of the created environment
+channels:                # Repositories to search for packages
+# - defaults             # edit: removed to just use conda-forge
+# - anaconda             # edit: removed to just use conda-forge
+  - conda-forge
+# https://anaconda.org/knime
+  - knime                # conda search knime-python-base -c knime --info # to see what is in the package
+dependencies:            # List of packages that should be installed
+- python=3.9             # Python
+- knime-python-base      # dependencies of KNIME - Python integration
+# - knime-python-scripting # everything you need to also build Python packages for KNIME
+- cairo                  # SVG support
+- pillow                 # Image inputs/outputs
+- matplotlib             # Plotting
+- IPython                # Notebook support
+- nbformat               # Notebook support
+- scipy                  # Notebook support
+- jpype1                 # A Python to Java bridge
+# Jupyter Notebook support
+- jupyter             # Jupyter Notebook
+- pandas-profiling    # create overview of your data
+- sweetviz            # In-depth EDA (target analysis, comparison, feature analysis, correlation) in two lines of code!
+- plotly              # An interactive, browser-based graphing library for Python
+- python-kaleido      # Fast static image export for web-based visualization libraries
+# Machine Learning Modules
+- lightgbm
+- xgboost
+- hyperopt
+- scikit-optimize       # skopt
+- optuna                # A hyperparameter optimization framework
+- pip                   # Python installer
+- pip:
+#  - JPype1 # Databases
+   - vtreat             # https://medium.com/low-code-for-advanced-data-science/data-preparation-for-machine-learning-with-knime-and-the-python-vtreat-package-efcaf58fa783
+   - h2o>=3.38
+   - boruta             # Python Implementation of Boruta Feature Selection
