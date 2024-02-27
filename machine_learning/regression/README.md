@@ -10,6 +10,7 @@ On the KNIME Hub there are some examples how to solve regression tasks with KNIM
 (https://github.com/ml-score/knime_meets_python/blob/main/machine_learning/regression/notebooks/kn_ml_regression_h2o_automl.ipynb)
 
 
+-----------------------------------------
 
 ![KNIME loves H2O.ai](KNIME_loves_h2o.png)
 
