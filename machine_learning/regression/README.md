@@ -3,10 +3,10 @@
 On the KNIME Hub there are some examples how to solve regression tasks with KNIME workflows. The Python notebooks presented here will later be included in KNIME workflows ... probably ....
 
 
-##### Use Python XGBoost and Optuna hyper parameter tuning to build a REGRESSION model and deploy with KNIME Python nodes
+##### Use Python XGBoost and Optuna hyper parameter tuning to build a REGRESSION model
 (https://github.com/ml-score/knime_meets_python/blob/main/machine_learning/regression/notebooks/kn_ml_regression_xgboost_hyper_parameter_optuna.ipynb)
 
-##### Use Python H2O.ai AutoML to build a REGRESSION model and deploy it with KNIME MOJO nodes
+##### Use Python H2O.ai AutoML to build a REGRESSION model (and maybe later deploy it with KNIME MOJO nodes)
 (https://github.com/ml-score/knime_meets_python/blob/main/machine_learning/regression/notebooks/kn_ml_regression_h2o_automl.ipynb)
 
 
