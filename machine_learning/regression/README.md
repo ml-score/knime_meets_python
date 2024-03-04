@@ -1,4 +1,4 @@
-### Am small collection of Jupyter motebooks to solve REGRESION tasks.
+### Am small collection of Jupyter Notebooks to solve REGRESION tasks
 
 On the KNIME Hub there are some examples how to solve regression tasks with KNIME workflows. The Python notebooks presented here will later be included in KNIME workflows ... probably ....
 
