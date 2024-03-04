@@ -1,3 +1,4 @@
+### Am small collection of Jupyter Notebooks to solve CLASSIFICATION tasks
 
 A small collection of Jupyter notebooks (under /notebooks/) with advanced machine-learning algorithms. Used in cooperation with KNIME workflows but also can be used standalone. The results can be integrated in KNIME like being demonstrated in these articles (where you will also find the links to the KNIME workflows)
 
