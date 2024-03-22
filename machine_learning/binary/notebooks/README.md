@@ -5,6 +5,12 @@ a collection of Jupyter notebooks to create machine-learning models, store the p
 
 **kn_example_python_h2o_automl_inspect_models.ipynb** - collect and inspect the models created
 
+**kn_example_python_lightgbm_hyper_parameter_bayes_search_cv.ipynb** - Python LightGBM and **BayesSearchCV** to build model and deploy with KNIME Python nodes
+
+**kn_example_python_lightgbm_hyper_parameter_optuna.ipynb** - Python LightGBM and **Optuna** hyper parameter tuning to build model and deploy with KNIME Python nodes
+
+**kn_example_python_xgboost_hyper_parameter_optuna.ipynb** - Python XGBoost and **Optuna**h hyper parameter tuning to build model and deploy with KNIME Python nodes
+
 --------
 
 If you copy this to your local repository you might need the folders
