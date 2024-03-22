@@ -1,4 +1,4 @@
-### Am small collection of Jupyter Notebooks to solve CLASSIFICATION tasks
+### A small collection of Jupyter Notebooks to solve CLASSIFICATION tasks
 
 A small collection of Jupyter notebooks (under /notebooks/) with advanced machine-learning algorithms. Used in cooperation with KNIME workflows but also can be used standalone. The results can be integrated in KNIME like being demonstrated in these articles (where you will also find the links to the KNIME workflows)
 
@@ -28,7 +28,7 @@ This article might also be relevant if you want to learn how to setup a conda en
 
 https://medium.com/p/2ac217792539
 
-**py3_knime_lightgbm.yml** - is the YAML configuration file to set up the environment
+**py3_knime_lightgbm.yml** - is the YAML configuration file to set up the environment in the /binary/ folder
 
 
 --------------------
@@ -40,3 +40,17 @@ Abstract: Predict whether income exceeds $50K/yr based on census data. Also know
 Extract and prepare the Census Income Files for usage in KNIME
 
 https://archive.ics.uci.edu/ml/datasets/census+income
+
+
+--------------------
+
+If you are interested in more Machine_learning aspects with Python and KNIME you can take a look at these articles
+
+**Medium Blog: KNIME — Machine Learning and Artificial Intelligence— A Collection** 
+
+https://medium.com/p/12e0f7d83b50
+
+**Medium Blog: About Machine-Learning — How it Fails and Succeeds**
+
+https://medium.com/p/9f3ab7cb9b00
+
